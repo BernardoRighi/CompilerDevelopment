@@ -1,0 +1,2 @@
+z = readInt()
+console(z)

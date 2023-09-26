@@ -1,0 +1,5 @@
+java -jar antlr-4.8-complete.jar CS.g
+
+javac -cp .;antlr-4.8-complete.jar CS*.java
+
+java -cp .;antlr-4.8-complete.jar  CSParser
